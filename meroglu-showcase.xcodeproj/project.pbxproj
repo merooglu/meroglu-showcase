@@ -7,14 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B0DC81F1F3E5E6000345846 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0DC81E1F3E5E6000345846 /* FeedVC.swift */; };
+		1B0DC8211F3E5FBA00345846 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0DC8201F3E5FBA00345846 /* PostCell.swift */; };
+		1B403F441F2BAF000056CB87 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B403F431F2BAF000056CB87 /* DataService.swift */; };
+		1B6BE2F71F1FF88600D52E09 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6BE2EF1F1FF88600D52E09 /* NotoSans-Bold.ttf */; };
+		1B6BE2F81F1FF88600D52E09 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6BE2F01F1FF88600D52E09 /* NotoSans-BoldItalic.ttf */; };
+		1B6BE2F91F1FF88600D52E09 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6BE2F11F1FF88600D52E09 /* NotoSans-Italic.ttf */; };
+		1B6BE2FA1F1FF88600D52E09 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6BE2F21F1FF88600D52E09 /* NotoSans-Regular.ttf */; };
+		1B6BE3001F2003EB00D52E09 /* Materialview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6BE2FF1F2003EB00D52E09 /* Materialview.swift */; };
+		1B6BE3031F20046800D52E09 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6BE3021F20046800D52E09 /* Constants.swift */; };
+		1B6BE3051F200CE200D52E09 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6BE3041F200CE200D52E09 /* MaterialButton.swift */; };
+		1B6BE3071F2012B400D52E09 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6BE3061F2012B400D52E09 /* MaterialTextField.swift */; };
 		1BCD39A81F1FB1EF0075F9C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCD39A71F1FB1EF0075F9C6 /* AppDelegate.swift */; };
 		1BCD39AA1F1FB1EF0075F9C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCD39A91F1FB1EF0075F9C6 /* ViewController.swift */; };
 		1BCD39AD1F1FB1EF0075F9C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCD39AB1F1FB1EF0075F9C6 /* Main.storyboard */; };
 		1BCD39AF1F1FB1EF0075F9C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCD39AE1F1FB1EF0075F9C6 /* Assets.xcassets */; };
 		1BCD39B21F1FB1EF0075F9C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCD39B01F1FB1EF0075F9C6 /* LaunchScreen.storyboard */; };
+		1BCD39BA1F1FB31E0075F9C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BCD39B91F1FB31E0075F9C6 /* GoogleService-Info.plist */; };
+		FD831B83C01DBF5C143104EE /* Pods_meroglu_showcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000DDA1CC2EA9D1EE6CE7180 /* Pods_meroglu_showcase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		000DDA1CC2EA9D1EE6CE7180 /* Pods_meroglu_showcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meroglu_showcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0DC81E1F3E5E6000345846 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		1B0DC8201F3E5FBA00345846 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		1B403F431F2BAF000056CB87 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		1B6BE2EA1F1FF37200D52E09 /* meroglu-showcase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "meroglu-showcase.entitlements"; sourceTree = "<group>"; };
+		1B6BE2EF1F1FF88600D52E09 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		1B6BE2F01F1FF88600D52E09 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		1B6BE2F11F1FF88600D52E09 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		1B6BE2F21F1FF88600D52E09 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		1B6BE2FF1F2003EB00D52E09 /* Materialview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Materialview.swift; sourceTree = "<group>"; };
+		1B6BE3021F20046800D52E09 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1B6BE3041F200CE200D52E09 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		1B6BE3061F2012B400D52E09 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
 		1BCD39A41F1FB1EF0075F9C6 /* meroglu-showcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "meroglu-showcase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCD39A71F1FB1EF0075F9C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BCD39A91F1FB1EF0075F9C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +48,9 @@
 		1BCD39AE1F1FB1EF0075F9C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BCD39B11F1FB1EF0075F9C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BCD39B31F1FB1EF0075F9C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BCD39B91F1FB31E0075F9C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DCEF61FD2FA5B833492CA414 /* Pods-meroglu-showcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meroglu-showcase.release.xcconfig"; path = "Pods/Target Support Files/Pods-meroglu-showcase/Pods-meroglu-showcase.release.xcconfig"; sourceTree = "<group>"; };
+		E92C29A1A96C692C15B0C4D8 /* Pods-meroglu-showcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meroglu-showcase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-meroglu-showcase/Pods-meroglu-showcase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +58,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD831B83C01DBF5C143104EE /* Pods_meroglu_showcase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B403F421F2BAEE50056CB87 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1B403F431F2BAF000056CB87 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		1B6BE2EB1F1FF80C00D52E09 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1BCD39A91F1FB1EF0075F9C6 /* ViewController.swift */,
+				1B0DC81E1F3E5E6000345846 /* FeedVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1B6BE2EC1F1FF81500D52E09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B6BE2FF1F2003EB00D52E09 /* Materialview.swift */,
+				1B6BE3041F200CE200D52E09 /* MaterialButton.swift */,
+				1B6BE3061F2012B400D52E09 /* MaterialTextField.swift */,
+				1B0DC8201F3E5FBA00345846 /* PostCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1B6BE2ED1F1FF81D00D52E09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1B6BE2EE1F1FF83200D52E09 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B6BE2EF1F1FF88600D52E09 /* NotoSans-Bold.ttf */,
+				1B6BE2F01F1FF88600D52E09 /* NotoSans-BoldItalic.ttf */,
+				1B6BE2F11F1FF88600D52E09 /* NotoSans-Italic.ttf */,
+				1B6BE2F21F1FF88600D52E09 /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1B6BE3011F20044400D52E09 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				1B6BE3021F20046800D52E09 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		1BCD399B1F1FB1EF0075F9C6 = {
 			isa = PBXGroup;
 			children = (
 				1BCD39A61F1FB1EF0075F9C6 /* meroglu-showcase */,
 				1BCD39A51F1FB1EF0075F9C6 /* Products */,
+				D74CDE06ED79BB5FC1D8ABB6 /* Pods */,
+				1D6A1E9D1A3A5824D00D955C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +140,38 @@
 		1BCD39A61F1FB1EF0075F9C6 /* meroglu-showcase */ = {
 			isa = PBXGroup;
 			children = (
+				1B403F421F2BAEE50056CB87 /* Services */,
+				1B6BE3011F20044400D52E09 /* Util */,
+				1B6BE2EE1F1FF83200D52E09 /* Resources */,
+				1B6BE2ED1F1FF81D00D52E09 /* Model */,
+				1B6BE2EC1F1FF81500D52E09 /* View */,
+				1B6BE2EB1F1FF80C00D52E09 /* Controller */,
+				1B6BE2EA1F1FF37200D52E09 /* meroglu-showcase.entitlements */,
 				1BCD39A71F1FB1EF0075F9C6 /* AppDelegate.swift */,
-				1BCD39A91F1FB1EF0075F9C6 /* ViewController.swift */,
 				1BCD39AB1F1FB1EF0075F9C6 /* Main.storyboard */,
 				1BCD39AE1F1FB1EF0075F9C6 /* Assets.xcassets */,
 				1BCD39B01F1FB1EF0075F9C6 /* LaunchScreen.storyboard */,
 				1BCD39B31F1FB1EF0075F9C6 /* Info.plist */,
+				1BCD39B91F1FB31E0075F9C6 /* GoogleService-Info.plist */,
 			);
 			path = "meroglu-showcase";
+			sourceTree = "<group>";
+		};
+		1D6A1E9D1A3A5824D00D955C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				000DDA1CC2EA9D1EE6CE7180 /* Pods_meroglu_showcase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D74CDE06ED79BB5FC1D8ABB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E92C29A1A96C692C15B0C4D8 /* Pods-meroglu-showcase.debug.xcconfig */,
+				DCEF61FD2FA5B833492CA414 /* Pods-meroglu-showcase.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BCD39B61F1FB1EF0075F9C6 /* Build configuration list for PBXNativeTarget "meroglu-showcase" */;
 			buildPhases = (
+				B3441DD9379D17F2633DC24B /* [CP] Check Pods Manifest.lock */,
 				1BCD39A01F1FB1EF0075F9C6 /* Sources */,
 				1BCD39A11F1FB1EF0075F9C6 /* Frameworks */,
 				1BCD39A21F1FB1EF0075F9C6 /* Resources */,
+				D943789C833FCFC948030576 /* [CP] Embed Pods Frameworks */,
+				3DD81B07D62839671CBDDD70 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +209,13 @@
 				TargetAttributes = {
 					1BCD39A31F1FB1EF0075F9C6 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 76NANZTYJ2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,21 +242,81 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B6BE2F81F1FF88600D52E09 /* NotoSans-BoldItalic.ttf in Resources */,
 				1BCD39B21F1FB1EF0075F9C6 /* LaunchScreen.storyboard in Resources */,
+				1BCD39BA1F1FB31E0075F9C6 /* GoogleService-Info.plist in Resources */,
 				1BCD39AF1F1FB1EF0075F9C6 /* Assets.xcassets in Resources */,
+				1B6BE2FA1F1FF88600D52E09 /* NotoSans-Regular.ttf in Resources */,
+				1B6BE2F91F1FF88600D52E09 /* NotoSans-Italic.ttf in Resources */,
+				1B6BE2F71F1FF88600D52E09 /* NotoSans-Bold.ttf in Resources */,
 				1BCD39AD1F1FB1EF0075F9C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3DD81B07D62839671CBDDD70 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meroglu-showcase/Pods-meroglu-showcase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3441DD9379D17F2633DC24B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D943789C833FCFC948030576 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meroglu-showcase/Pods-meroglu-showcase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1BCD39A01F1FB1EF0075F9C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B6BE3071F2012B400D52E09 /* MaterialTextField.swift in Sources */,
+				1B403F441F2BAF000056CB87 /* DataService.swift in Sources */,
 				1BCD39AA1F1FB1EF0075F9C6 /* ViewController.swift in Sources */,
+				1B6BE3001F2003EB00D52E09 /* Materialview.swift in Sources */,
+				1B0DC81F1F3E5E6000345846 /* FeedVC.swift in Sources */,
+				1B0DC8211F3E5FBA00345846 /* PostCell.swift in Sources */,
 				1BCD39A81F1FB1EF0075F9C6 /* AppDelegate.swift in Sources */,
+				1B6BE3031F20046800D52E09 /* Constants.swift in Sources */,
+				1B6BE3051F200CE200D52E09 /* MaterialButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +439,11 @@
 		};
 		1BCD39B71F1FB1EF0075F9C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E92C29A1A96C692C15B0C4D8 /* Pods-meroglu-showcase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "meroglu-showcase/meroglu-showcase.entitlements";
+				DEVELOPMENT_TEAM = 76NANZTYJ2;
 				INFOPLIST_FILE = "meroglu-showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.meroglu-showcase";
@@ -272,8 +454,11 @@
 		};
 		1BCD39B81F1FB1EF0075F9C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCEF61FD2FA5B833492CA414 /* Pods-meroglu-showcase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "meroglu-showcase/meroglu-showcase.entitlements";
+				DEVELOPMENT_TEAM = 76NANZTYJ2;
 				INFOPLIST_FILE = "meroglu-showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.meroglu-showcase";
@@ -301,6 +486,7 @@
 				1BCD39B81F1FB1EF0075F9C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

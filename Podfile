@@ -14,4 +14,5 @@ target 'meroglu-showcase' do
 	pod 'FBSDKShareKit'
 	pod 'FBSDKLoginKit'
 
+	pod 'Alamofire', '~> 4.4'
 end

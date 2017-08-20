@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1B0DC81F1F3E5E6000345846 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0DC81E1F3E5E6000345846 /* FeedVC.swift */; };
 		1B0DC8211F3E5FBA00345846 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0DC8201F3E5FBA00345846 /* PostCell.swift */; };
+		1B3F3EE31F44C1BC00734537 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3F3EE21F44C1BC00734537 /* Post.swift */; };
 		1B403F441F2BAF000056CB87 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B403F431F2BAF000056CB87 /* DataService.swift */; };
 		1B6BE2F71F1FF88600D52E09 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6BE2EF1F1FF88600D52E09 /* NotoSans-Bold.ttf */; };
 		1B6BE2F81F1FF88600D52E09 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6BE2F01F1FF88600D52E09 /* NotoSans-BoldItalic.ttf */; };
@@ -31,6 +32,7 @@
 		000DDA1CC2EA9D1EE6CE7180 /* Pods_meroglu_showcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meroglu_showcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B0DC81E1F3E5E6000345846 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		1B0DC8201F3E5FBA00345846 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		1B3F3EE21F44C1BC00734537 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		1B403F431F2BAF000056CB87 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		1B6BE2EA1F1FF37200D52E09 /* meroglu-showcase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "meroglu-showcase.entitlements"; sourceTree = "<group>"; };
 		1B6BE2EF1F1FF88600D52E09 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 		1B6BE2ED1F1FF81D00D52E09 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1B3F3EE21F44C1BC00734537 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				1BCD39A81F1FB1EF0075F9C6 /* AppDelegate.swift in Sources */,
 				1B6BE3031F20046800D52E09 /* Constants.swift in Sources */,
 				1B6BE3051F200CE200D52E09 /* MaterialButton.swift in Sources */,
+				1B3F3EE31F44C1BC00734537 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +448,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "meroglu-showcase/meroglu-showcase.entitlements";
 				DEVELOPMENT_TEAM = 76NANZTYJ2;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "meroglu-showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.meroglu-showcase";
@@ -459,6 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "meroglu-showcase/meroglu-showcase.entitlements";
 				DEVELOPMENT_TEAM = 76NANZTYJ2;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "meroglu-showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.meroglu-showcase";

@@ -235,13 +235,13 @@
                                                                             <rect key="frame" x="230" y="0.0" width="97" height="50"/>
                                                                             <subviews>
                                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1555" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9pi-c0-zot">
-                                                                                    <rect key="frame" x="0.0" y="0.0" width="30" height="25"/>
+                                                                                    <rect key="frame" x="0.0" y="0.0" width="29" height="25"/>
                                                                                     <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="13"/>
                                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                                     <nil key="highlightedColor"/>
                                                                                 </label>
                                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Likes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1hc-cL-FHE">
-                                                                                    <rect key="frame" x="0.0" y="25" width="33.5" height="25"/>
+                                                                                    <rect key="frame" x="0.0" y="25" width="30.5" height="25"/>
                                                                                     <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="13"/>
                                                                                     <color key="textColor" red="0.8784313725490196" green="0.8784313725490196" blue="0.8784313725490196" alpha="1" colorSpace="calibratedRGB"/>
                                                                                     <nil key="highlightedColor"/>
@@ -288,6 +288,8 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.87843137250000003" green="0.87843137250000003" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
+                                            <outlet property="descriptionText" destination="cJv-c7-EOE" id="Edx-Xa-All"/>
+                                            <outlet property="likesLbl" destination="9pi-c0-zot" id="hnw-Z7-SRs"/>
                                             <outlet property="profileImg" destination="gG6-z3-GUy" id="ToD-aG-FTo"/>
                                             <outlet property="showcaseImg" destination="Wfa-Vt-PcW" id="w0a-ix-63N"/>
                                         </connections>
@@ -317,7 +319,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ogi-DJ-atu" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="3pw-p2-Gqp">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3pw-p2-Gqp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.95686274510000002" green="0.31764705879999999" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>

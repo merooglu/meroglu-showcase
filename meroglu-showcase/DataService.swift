@@ -12,6 +12,7 @@ import Firebase
 let URL_BASE = Database.database().reference()
 
 class DataService {
+    
     static let ds = DataService()
     private var _REF_BASE = URL_BASE
     private var _REF_POSTS = URL_BASE.child("posts")
